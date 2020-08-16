@@ -33,11 +33,12 @@ body {
 }
 
 @font-face {
-    font-family: 'pangolinregular';
-    src: url('pangolin-regular-webfont.woff2') format('woff2'),
-         url('pangolin-regular-webfont.woff') format('woff');
+    font-family: 'architects_daughterregular';
+    src: url('architectsdaughter-regular-webfont.woff2') format('woff2'),
+         url('architectsdaughter-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 .navbarjenn {
@@ -46,7 +47,7 @@ body {
 
 a.nav-link {
 	color: #ffa299;
-	font-family: "pangolinregular";
+	font-family: "architects_daughterregular";
 	font-size: 25px;
 }
 
@@ -81,7 +82,7 @@ a.navbar-brand {
 	font-size: 4vw;
 	color: #ad6989;
 	text-align: center;
-	font-family: "pangolinregular";
+	font-family: "architects_daughterregular";
 }
 
 #triangle-down { 
@@ -109,7 +110,7 @@ a.navbar-brand {
 	height: 100%;
 	background-color: #562349;
 	color: #ffa299;
-	font-family: "pangolinregular";
+	font-family: "architects_daughterregular";
 } 
 
 .titre {
@@ -118,7 +119,16 @@ a.navbar-brand {
 }
 
 #part1 .container {
-	padding-top: 100px;
+	padding-top: 80px;
+}
+
+#CV {
+	padding-bottom: 40px;
+	color: #fee2b3;
+}
+
+#CV:hover {
+	color: #ffa299;
 }
 
 #part1 #triangle-down { 
@@ -142,8 +152,7 @@ a.navbar-brand {
 #part2 {
 	padding-top: 30px;
 	padding-bottom: 150px;
-	height: 100%;
-	font-family: "pangolinregular";
+	font-family: "architects_daughterregular";
 }
 
 .col-centered {
@@ -185,4 +194,47 @@ input ~ .tab {
 .vid {
 	margin-bottom: 10em;
 	margin-top: 2em;
+}
+
+.caption {
+	font-size: 25px;
+}
+
+#part3 {
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 150px;
+	height: 100%;
+	background-color: #562349;
+	color: #ffa299;
+	font-family: "architects_daughterregular";
+} 
+
+.logosm {
+	font-size: 80px;
+	margin-right: 20px;
+	margin-left: 20px;
+	padding-top: 150px;
+	color: #fee2b3;
+}
+
+.logosm:hover {
+	color: #ffa299;
+}
+
+.contact {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.logocontact {
+	font-size: 50px;
+}
+
+#mail {
+	color: #fee2b3;
+}
+
+#mail:hover {
+	color: #ffa299;
 }
